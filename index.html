@@ -3,9 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper Scissors</title>
 </head>
 <body>
+    <main>
+        <h1>Rock Paper Scissors</h1>
+        <div class="choices" id="rock">
+            <div class="choice">
+                <img src="/rock.png" alt="">
+            </div>
+            <div class="choice" id="paper">
+                <img src="/paper.png" alt="">
+            </div>
+            <div class="choice" id="scissors">
+                <img src="/scissors.png" alt="">
+            </div>
+        </div>
+
+        <div class="score-board">
+            <div class="score">
+                <p>User: <span id="user-score">0</span></p>
+            </div>
+            <div class="score">
+                
+                <p>Computer: <span id="computer-score">0</span></p>
+            </div>
+        </div>
+
+        <div class="msgContainer">
+            <p id="msg">Play your move</p>
+        </div>
+    </main>
     
+    
+
+    <script src="app.js"></script>
 </body>
 </html>
